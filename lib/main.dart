@@ -8,9 +8,9 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   Supabase.initialize(
-    // TODO: Replace credentials with your own
-    url: '[YOUR_SUPABASE_URL]',
-    anonKey: '[YOUR_SUPABASE_ANNON_KEY]',
+    url: 'https://jeaxwidfbdwnnbqfpusj.supabase.co',
+    anonKey:
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyNTI4OTgyMywiZXhwIjoxOTQwODY1ODIzfQ.hT7qQdTTQz-Sr1vrxq6956uzuKdiifV4v7R4dOr7cBE',
   );
   runApp(MyApp());
 }
